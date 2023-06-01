@@ -3,7 +3,8 @@ package com.hsp.extend;
 public class ExtendsTheory {
 
 	public static void main(String[] args) {
-		Son son = new Son();/
+		Son son = new Son();
+
 		// ?-> 这时请大家注意，要按照查找关系来返回信息
 		// (1) 首先看子类是否有该属性
 		// (2) 如果子类有这个属性，并且可以访问，则返回信息
